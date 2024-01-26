@@ -1,0 +1,897 @@
+2023-04-01T09:31:45+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 95551488 bytes) in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-image-editor-gd.php on line 111
+
+2023-04-01T09:31:49+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 28672 bytes) in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-image-editor-gd.php on line 111
+
+2023-04-01T09:31:50+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 95551488 bytes) in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-image-editor-gd.php on line 111
+
+2023-04-01T14:06:21+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(870)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_H in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:06:39+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(870)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_H in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:06:48+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(870)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_H in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:06:50+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(870)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_H in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:07:11+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(870)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_H in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:07:18+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(870)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_H in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:08:03+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(870)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_H in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:08:06+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(870)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_H in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:08:16+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(963)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_H in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:08:23+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(963)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_H in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:08:45+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(963)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_H in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:08:49+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(870)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_H in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:08:50+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(870)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_H in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:09:49+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(934)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_H in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:10:01+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(934)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_H in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:10:03+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(934)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_H in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:10:30+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(934)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_H in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:16:18+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(870)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_H in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:43:08+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1019)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:43:13+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1020)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:43:16+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1021)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:43:18+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1022)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:43:20+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1023)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:43:23+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1024)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:43:56+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1025)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:44:13+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1026)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:46:01+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1027)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:46:46+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1028)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:46:52+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1029)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:47:01+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1030)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:47:18+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1031)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:47:35+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1032)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:49:25+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1033)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:50:54+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1034)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:51:20+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1035)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:52:17+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1036)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:52:25+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1037)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:52:26+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1038)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:52:31+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1040)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:52:34+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1041)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:52:34+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1042)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:52:36+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1043)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:52:38+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1044)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:52:47+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1045)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:53:31+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1047)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:54:02+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1048)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:55:13+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1049)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:55:22+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1050)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:55:27+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1051)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:55:32+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1052)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:55:45+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1053)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:56:06+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1054)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:56:13+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1055)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:56:17+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1056)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:56:27+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1057)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:57:18+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1058)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:57:30+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1059)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:57:32+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1060)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:57:35+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1061)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:57:53+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1062)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:58:06+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1063)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T14:59:54+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1064)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T15:02:21+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1065)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T15:02:56+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1066)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T15:03:34+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1067)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T15:06:40+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1068)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('blocks')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): W in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T15:16:21+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1073)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T15:16:33+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1075)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T15:16:55+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1076)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T15:17:11+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1078)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T15:21:42+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1080)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T15:21:51+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1081)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T15:21:54+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1082)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T15:21:55+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1083)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T15:21:59+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1084)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T15:22:00+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1085)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T15:22:02+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1086)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T15:22:03+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1087)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T15:22:08+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1088)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T15:22:10+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1089)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T15:22:16+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1090)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T15:23:06+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1091)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T15:23:35+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1093)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T15:28:12+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1094)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T15:35:46+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1095)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T15:36:11+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1096)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T15:36:26+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1097)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T15:37:44+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1098)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T15:37:51+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1099)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T15:37:53+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1100)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T15:37:54+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1101)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T15:39:37+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(382)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('page')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_H in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T15:39:45+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(382)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('page')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_H in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T15:40:22+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1102)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T15:42:15+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1103)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T15:42:24+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1104)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T15:42:36+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1105)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T15:43:46+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1106)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+
+2023-04-01T15:44:10+00:00 CRITICAL Uncaught Exception: Đơn hàng không hợp lệ. in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:120
+Stack trace:
+#0 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(128): WC_Data_Store->read(Object(WC_Order))
+#2 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/payment-pro-direct-payment-hosted-paypal/paypal-pro.php(46): WC_Abstract_Order->__construct(1107)
+#3 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(310): pocoppp_add_meta_boxes('post')
+#4 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/plugin.php(517): WP_ in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 120
+

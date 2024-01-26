@@ -1,0 +1,8 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.woocommerce button[name="update_cart"],
+.woocommerce input[name="update_cart"] {
+display: none !important;
+}
+</style>
+<!-- end Simple Custom CSS and JS -->

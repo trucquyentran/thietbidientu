@@ -1,0 +1,272 @@
+2023-04-03T14:20:48+00:00 NOTICE admin :: syncing webhooks for existing plugin
+2023-04-03T14:22:36+00:00 NOTICE sync_store :: posting data :: Array
+(
+    [store_post] => Array
+        (
+            [id] => 642ae0bf309ba
+            [is_syncing] => 
+            [platform] => woocommerce
+            [list_id] => 561f9a4ea8
+            [name] => Cửa hàng thiết bị điện tử
+            [domain] => https://thietbidientu.epizy.com
+            [email_address] => trucquyentran0123@gmail.com
+            [currency_code] => VND
+            [money_format] => VND
+            [primary_locale] => vi
+            [timezone] => Asia/Ho_Chi_Minh
+            [phone] => 0123456789
+            [address] => Array
+                (
+                    [address1] => 3/2, Ninh Kiều
+                    [city] => Cần Thơ
+                    [province] => CANTHO
+                    [postal_code] => 94000
+                    [country] => VN
+                    [country_code] => VN
+                    [phone] => 0123456789
+                    [company] => Cửa hàng thiết bị điện tử
+                )
+
+        )
+
+)
+
+2023-04-03T14:22:38+00:00 NOTICE admin :: updated GDPR fields :: Array
+(
+    [fields] => Array
+        (
+        )
+
+)
+
+2023-04-03T14:22:42+00:00 NOTICE sync_store :: posting data :: Array
+(
+    [store_post] => Array
+        (
+            [id] => 642ae0bf309ba
+            [is_syncing] => 
+            [platform] => woocommerce
+            [list_id] => 561f9a4ea8
+            [name] => Cửa hàng thiết bị điện tử
+            [domain] => https://thietbidientu.epizy.com
+            [email_address] => trucquyentran0123@gmail.com
+            [currency_code] => VND
+            [money_format] => VND
+            [primary_locale] => vi
+            [timezone] => Asia/Ho_Chi_Minh
+            [phone] => 0123456789
+            [address] => Array
+                (
+                    [address1] => 3/2, Ninh Kiều
+                    [city] => Cần Thơ
+                    [province] => CANTHO
+                    [postal_code] => 94000
+                    [country] => VN
+                    [country_code] => VN
+                    [phone] => 0123456789
+                    [company] => Cửa hàng thiết bị điện tử
+                )
+
+        )
+
+)
+
+2023-04-03T14:22:44+00:00 NOTICE admin :: updated GDPR fields :: Array
+(
+    [fields] => Array
+        (
+        )
+
+)
+
+2023-04-03T14:22:45+00:00 NOTICE sync_store :: posting data :: Array
+(
+    [store_post] => Array
+        (
+            [id] => 642ae0bf309ba
+            [is_syncing] => 
+            [platform] => woocommerce
+            [list_id] => 561f9a4ea8
+            [name] => Cửa hàng thiết bị điện tử
+            [domain] => https://thietbidientu.epizy.com
+            [email_address] => trucquyentran0123@gmail.com
+            [currency_code] => VND
+            [money_format] => VND
+            [primary_locale] => vi
+            [timezone] => Asia/Ho_Chi_Minh
+            [phone] => 0123456789
+            [address] => Array
+                (
+                    [address1] => 3/2, Ninh Kiều
+                    [city] => Cần Thơ
+                    [province] => CANTHO
+                    [postal_code] => 94000
+                    [country] => VN
+                    [country_code] => VN
+                    [phone] => 0123456789
+                    [company] => Cửa hàng thiết bị điện tử
+                )
+
+        )
+
+)
+
+2023-04-03T14:22:47+00:00 NOTICE admin :: updated GDPR fields :: Array
+(
+    [fields] => Array
+        (
+        )
+
+)
+
+2023-04-03T14:22:47+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_WebHooks_Sync queued
+2023-04-03T14:22:47+00:00 NOTICE mailchimp-woocommerce-sync.started :: Starting Sync :: Mon, Apr 3, 2023 2:22 PM
+2023-04-03T14:22:47+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Coupons queued :: page 1
+2023-04-03T14:22:47+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Coupons queued :: page 2
+2023-04-03T14:23:39+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_SingleCoupon queued :: obj_id 1290
+2023-04-03T14:23:39+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_SingleCoupon queued :: obj_id 1291
+2023-04-03T14:23:39+00:00 NOTICE coupon_sync.completed :: Done with the coupon queueing.
+2023-04-03T14:23:39+00:00 NOTICE sync.full_sync_manager.queue :: Starting PRODUCTS queueing.
+2023-04-03T14:23:39+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Products queued :: page 1
+2023-04-03T14:23:39+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Products queued :: page 2
+2023-04-03T14:23:40+00:00 NOTICE promo_code_submit.success :: #1290 :: code: tqt2023
+2023-04-03T14:23:41+00:00 NOTICE promo_code_submit.success :: #1291 :: code: snt22atttq
+2023-04-03T14:23:41+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 20
+2023-04-03T14:23:41+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 25
+2023-04-03T14:23:41+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 33
+2023-04-03T14:23:41+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 41
+2023-04-03T14:23:41+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 51
+2023-04-03T14:23:41+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 57
+2023-04-03T14:23:41+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 62
+2023-04-03T14:23:41+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 90
+2023-04-03T14:23:41+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 100
+2023-04-03T14:23:41+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 109
+2023-04-03T14:23:41+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 126
+2023-04-03T14:23:41+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 137
+2023-04-03T14:23:41+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 155
+2023-04-03T14:23:41+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 164
+2023-04-03T14:23:42+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 180
+2023-04-03T14:23:42+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 198
+2023-04-03T14:23:42+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 203
+2023-04-03T14:23:42+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 208
+2023-04-03T14:23:42+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 564
+2023-04-03T14:23:42+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 572
+2023-04-03T14:23:42+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 592
+2023-04-03T14:23:42+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 600
+2023-04-03T14:23:42+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 647
+2023-04-03T14:23:42+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 655
+2023-04-03T14:23:42+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 664
+2023-04-03T14:23:42+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 685
+2023-04-03T14:23:42+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 696
+2023-04-03T14:23:42+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 705
+2023-04-03T14:23:42+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 716
+2023-04-03T14:23:42+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 723
+2023-04-03T14:23:42+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 752
+2023-04-03T14:23:42+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 770
+2023-04-03T14:23:42+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 779
+2023-04-03T14:23:42+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 797
+2023-04-03T14:23:42+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 812
+2023-04-03T14:23:42+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 822
+2023-04-03T14:23:42+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 829
+2023-04-03T14:23:42+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 835
+2023-04-03T14:23:42+00:00 NOTICE product_sync.completed :: Done with the product queuing
+2023-04-03T14:23:42+00:00 NOTICE product_submit.success :: addStoreProduct :: #20
+2023-04-03T14:23:43+00:00 NOTICE product_submit.success :: addStoreProduct :: #25
+2023-04-03T14:23:44+00:00 NOTICE product_submit.success :: addStoreProduct :: #33
+2023-04-03T14:23:45+00:00 NOTICE product_submit.success :: addStoreProduct :: #41
+2023-04-03T14:23:45+00:00 NOTICE product_submit.success :: addStoreProduct :: #51
+2023-04-03T14:23:46+00:00 NOTICE product_submit.success :: addStoreProduct :: #57
+2023-04-03T14:23:47+00:00 NOTICE product_submit.success :: addStoreProduct :: #62
+2023-04-03T14:23:48+00:00 NOTICE product_submit.success :: addStoreProduct :: #90
+2023-04-03T14:23:48+00:00 NOTICE product_submit.success :: addStoreProduct :: #100
+2023-04-03T14:23:50+00:00 NOTICE product_submit.success :: addStoreProduct :: #109
+2023-04-03T14:23:50+00:00 NOTICE product_submit.success :: addStoreProduct :: #126
+2023-04-03T14:23:51+00:00 NOTICE product_submit.success :: addStoreProduct :: #137
+2023-04-03T14:23:52+00:00 NOTICE product_submit.success :: addStoreProduct :: #155
+2023-04-03T14:23:52+00:00 NOTICE product_submit.success :: addStoreProduct :: #164
+2023-04-03T14:23:53+00:00 NOTICE product_submit.success :: addStoreProduct :: #180
+2023-04-03T14:23:54+00:00 NOTICE product_submit.success :: addStoreProduct :: #198
+2023-04-03T14:23:55+00:00 NOTICE product_submit.success :: addStoreProduct :: #203
+2023-04-03T14:23:55+00:00 NOTICE product_submit.success :: addStoreProduct :: #208
+2023-04-03T14:23:56+00:00 NOTICE product_submit.success :: addStoreProduct :: #564
+2023-04-03T14:23:57+00:00 NOTICE product_submit.success :: addStoreProduct :: #572
+2023-04-03T14:23:57+00:00 NOTICE product_submit.success :: addStoreProduct :: #592
+2023-04-03T14:23:58+00:00 NOTICE product_submit.success :: addStoreProduct :: #600
+2023-04-03T14:23:59+00:00 NOTICE product_submit.success :: addStoreProduct :: #647
+2023-04-03T14:24:00+00:00 NOTICE product_submit.success :: addStoreProduct :: #655
+2023-04-03T14:24:00+00:00 NOTICE product_submit.success :: addStoreProduct :: #664
+2023-04-03T14:24:01+00:00 NOTICE product_submit.success :: addStoreProduct :: #685
+2023-04-03T14:24:02+00:00 NOTICE product_submit.success :: addStoreProduct :: #696
+2023-04-03T14:24:03+00:00 NOTICE product_submit.success :: addStoreProduct :: #705
+2023-04-03T14:24:03+00:00 NOTICE product_submit.success :: addStoreProduct :: #716
+2023-04-03T14:24:04+00:00 NOTICE product_submit.success :: addStoreProduct :: #723
+2023-04-03T14:24:05+00:00 NOTICE product_submit.success :: addStoreProduct :: #752
+2023-04-03T14:24:06+00:00 NOTICE product_submit.success :: addStoreProduct :: #770
+2023-04-03T14:24:45+00:00 NOTICE product_submit.success :: addStoreProduct :: #779
+2023-04-03T14:24:46+00:00 NOTICE product_submit.success :: addStoreProduct :: #797
+2023-04-03T14:24:47+00:00 NOTICE product_submit.success :: addStoreProduct :: #812
+2023-04-03T14:24:48+00:00 NOTICE product_submit.success :: addStoreProduct :: #822
+2023-04-03T14:24:48+00:00 NOTICE product_submit.success :: addStoreProduct :: #829
+2023-04-03T14:24:49+00:00 NOTICE product_submit.success :: addStoreProduct :: #835
+2023-04-03T14:24:49+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Orders queued :: page 1
+2023-04-03T14:24:49+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Orders queued :: page 2
+2023-04-03T14:24:49+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order queued :: obj_id 1235
+2023-04-03T14:24:49+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order queued :: obj_id 1236
+2023-04-03T14:24:49+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order queued :: obj_id 1237
+2023-04-03T14:24:49+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order queued :: obj_id 1239
+2023-04-03T14:24:49+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order queued :: obj_id 1240
+2023-04-03T14:24:49+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order queued :: obj_id 1277
+2023-04-03T14:24:49+00:00 NOTICE order_sync.completed :: Done with the order queueing.
+2023-04-03T14:24:49+00:00 NOTICE order_process :: Order #1235 skipped, user #1 user role is not in the list
+2023-04-03T14:24:49+00:00 NOTICE order_process :: Order #1236 skipped, user #1 user role is not in the list
+2023-04-03T14:24:49+00:00 NOTICE order_process :: Order #1237 skipped, user #1 user role is not in the list
+2023-04-03T14:24:49+00:00 NOTICE order_process :: Order #1239 skipped, user #1 user role is not in the list
+2023-04-03T14:24:55+00:00 NOTICE order.member.updated :: Updated huynhngaa001@gmail.com subscriber status to subscribed and language to 
+2023-04-03T14:24:55+00:00 NOTICE order_submit.success :: addStoreOrder :: #1240 :: email: huynhngaa001@gmail.com
+2023-04-03T14:24:56+00:00 NOTICE member.sync :: Updated Member huynhngaa001@gmail.com :: Array
+(
+    [status] => subscribed
+    [language] => 
+    [merge_fields] => Array
+        (
+            [FNAME] => Nguyễn
+            [LNAME] => Nga
+        )
+
+    [gdpr_fields] => 
+)
+
+2023-04-03T14:24:56+00:00 NOTICE order_process :: Order #1277 skipped, user #1 user role is not in the list
+2023-04-03T14:25:51+00:00 NOTICE sync.completed :: Finished Sync :: Mon, Apr 3, 2023 2:25 PM (total time: 00:03:04)
+2023-04-03T14:32:10+00:00 NOTICE sync.completed :: Finished Sync :: Mon, Apr 3, 2023 2:32 PM (total time: 00:09:23)
+2023-04-03T14:38:51+00:00 NOTICE sync.completed :: Finished Sync :: Mon, Apr 3, 2023 2:38 PM (total time: 00:16:04)
+2023-04-03T14:45:40+00:00 NOTICE sync.completed :: Finished Sync :: Mon, Apr 3, 2023 2:45 PM (total time: 00:22:53)
+2023-04-03T14:50:41+00:00 NOTICE sync.completed :: Finished Sync :: Mon, Apr 3, 2023 2:50 PM (total time: 00:27:54)
+2023-04-03T15:13:26+00:00 NOTICE sync.completed :: Finished Sync :: Mon, Apr 3, 2023 3:13 PM (total time: 00:50:39)
+2023-04-03T15:32:10+00:00 NOTICE sync.completed :: Finished Sync :: Mon, Apr 3, 2023 3:32 PM (total time: 01:09:23)
+2023-04-03T16:21:12+00:00 NOTICE sync.completed :: Finished Sync :: Mon, Apr 3, 2023 4:21 PM (total time: 01:58:25)
+2023-04-03T16:26:52+00:00 NOTICE sync.completed :: Finished Sync :: Mon, Apr 3, 2023 4:26 PM (total time: 02:04:05)
+2023-04-03T16:32:52+00:00 NOTICE sync.completed :: Finished Sync :: Mon, Apr 3, 2023 4:32 PM (total time: 02:10:05)
+2023-04-03T16:38:04+00:00 NOTICE sync.completed :: Finished Sync :: Mon, Apr 3, 2023 4:38 PM (total time: 02:15:17)
+2023-04-03T16:43:45+00:00 NOTICE sync.completed :: Finished Sync :: Mon, Apr 3, 2023 4:43 PM (total time: 02:20:58)
+2023-04-03T16:48:53+00:00 NOTICE sync.completed :: Finished Sync :: Mon, Apr 3, 2023 4:48 PM (total time: 02:26:06)
+2023-04-03T16:53:56+00:00 NOTICE sync.completed :: Finished Sync :: Mon, Apr 3, 2023 4:53 PM (total time: 02:31:09)
+2023-04-03T16:59:08+00:00 NOTICE sync.completed :: Finished Sync :: Mon, Apr 3, 2023 4:59 PM (total time: 02:36:21)
+2023-04-03T17:04:41+00:00 NOTICE sync.completed :: Finished Sync :: Mon, Apr 3, 2023 5:04 PM (total time: 02:41:54)
+2023-04-03T17:11:13+00:00 NOTICE sync.completed :: Finished Sync :: Mon, Apr 3, 2023 5:11 PM (total time: 02:48:26)
+2023-04-03T17:16:59+00:00 NOTICE sync.completed :: Finished Sync :: Mon, Apr 3, 2023 5:16 PM (total time: 02:54:12)
+2023-04-03T17:23:41+00:00 NOTICE sync.completed :: Finished Sync :: Mon, Apr 3, 2023 5:23 PM (total time: 03:00:54)
+2023-04-03T17:28:43+00:00 NOTICE sync.completed :: Finished Sync :: Mon, Apr 3, 2023 5:28 PM (total time: 03:05:56)
+2023-04-03T17:34:13+00:00 NOTICE sync.completed :: Finished Sync :: Mon, Apr 3, 2023 5:34 PM (total time: 03:11:26)
+2023-04-03T17:40:03+00:00 NOTICE sync.completed :: Finished Sync :: Mon, Apr 3, 2023 5:40 PM (total time: 03:17:16)
+2023-04-03T17:46:20+00:00 NOTICE sync.completed :: Finished Sync :: Mon, Apr 3, 2023 5:46 PM (total time: 03:23:33)
+2023-04-03T17:51:21+00:00 NOTICE sync.completed :: Finished Sync :: Mon, Apr 3, 2023 5:51 PM (total time: 03:28:34)
+2023-04-03T17:57:06+00:00 NOTICE sync.completed :: Finished Sync :: Mon, Apr 3, 2023 5:57 PM (total time: 03:34:19)
+2023-04-03T18:05:00+00:00 NOTICE sync.completed :: Finished Sync :: Mon, Apr 3, 2023 6:05 PM (total time: 03:42:13)
+2023-04-03T18:11:42+00:00 NOTICE sync.completed :: Finished Sync :: Mon, Apr 3, 2023 6:11 PM (total time: 03:48:55)
+2023-04-03T19:17:57+00:00 NOTICE sync.completed :: Finished Sync :: Mon, Apr 3, 2023 7:17 PM (total time: 04:55:10)
+2023-04-03T20:48:09+00:00 NOTICE sync.completed :: Finished Sync :: Mon, Apr 3, 2023 8:48 PM (total time: 06:25:22)
+2023-04-03T20:49:59+00:00 NOTICE sync.completed :: Finished Sync :: Mon, Apr 3, 2023 8:49 PM (total time: 06:27:12)
+2023-04-03T20:56:01+00:00 NOTICE sync.completed :: Finished Sync :: Mon, Apr 3, 2023 8:56 PM (total time: 06:33:14)
+2023-04-03T21:09:58+00:00 NOTICE sync.completed :: Finished Sync :: Mon, Apr 3, 2023 9:09 PM (total time: 06:47:11)
+2023-04-03T21:19:46+00:00 NOTICE sync.completed :: Finished Sync :: Mon, Apr 3, 2023 9:19 PM (total time: 06:56:59)

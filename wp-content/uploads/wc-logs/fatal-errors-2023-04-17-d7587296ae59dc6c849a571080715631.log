@@ -1,0 +1,2 @@
+2023-04-17T08:31:30+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 188416 bytes) in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce-pdf-invoices-packing-slips/vendor/dompdf/dompdf/lib/Cpdf.php on line 2087
+

@@ -1,0 +1,8 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.woocommerce-Price-amount.amount,
+.woocommerce-variation-price .woocommerce-Price-amount.amount {
+    color:#d0021c; /* Thay đổi mã màu tại đây */
+}
+</style>
+<!-- end Simple Custom CSS and JS -->

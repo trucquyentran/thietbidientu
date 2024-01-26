@@ -1,0 +1,4 @@
+2023-04-18T04:11:48+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 528384 bytes) in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woo-vietnam-checkout/cities/xa_phuong_thitran.php on line 3
+
+2023-04-18T04:18:01+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 524288 bytes) in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-content/plugins/woocommerce/i18n/states.php on line 904
+

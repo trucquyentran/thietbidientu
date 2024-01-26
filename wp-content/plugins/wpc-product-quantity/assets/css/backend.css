@@ -1,0 +1,68 @@
+.woopq_table .woopq_tr {
+    display: flex;
+    padding: 12px;
+}
+
+.woopq_table .woopq_tr .woopq_td:first-child {
+    width: 150px;
+}
+
+.woopq_table .woopq_tr .woopq_td:last-child {
+    flex-basis: 150px;
+    flex-grow: 1;
+}
+
+.woopq_show_if_overwrite {
+    display: none;
+}
+
+.woopq_tab a:before {
+    content: '\f156' !important;
+}
+
+.woopq_active {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.wpc-premium, .wpc-premium a, .active[data-slug="wpc-product-quantity"] .premium a {
+    color: #c9356e;
+}
+
+body.rtl .woopq_active {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+/* Variation */
+
+.woopq-variation-settings {
+    margin: 1em 0;
+}
+
+.woopq-variation-settings label {
+    display: block;
+}
+
+.woopq-variation-wrap {
+    margin-top: 10px;
+    background-color: #fafafa;
+    border: 1px solid #8c8f94;
+    border-radius: 4px;
+    position: relative;
+}
+
+.woopq-variation-wrap:before {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: #fafafa;
+    border-width: 1px 0 0 1px;
+    border-style: solid;
+    border-color: #8c8f94;
+    transform: rotate(45deg);
+    position: absolute;
+    top: -6px;
+    left: 15px;
+}

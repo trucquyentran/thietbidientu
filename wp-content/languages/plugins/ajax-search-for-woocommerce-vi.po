@@ -1,0 +1,519 @@
+# Translation of Plugins - FiboSearch &#8211; Ajax Search for WooCommerce - Stable (latest release) in Vietnamese
+# This file is distributed under the same license as the Plugins - FiboSearch &#8211; Ajax Search for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-03-19 08:20:16+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: vi_VN\n"
+"Project-Id-Version: Plugins - FiboSearch &#8211; Ajax Search for WooCommerce - Stable (latest release)\n"
+
+#: includes/Admin/Troubleshooting.php:679
+msgid "Regenerate WooCommerce images"
+msgstr "Tái tạo ảnh WooCommerce"
+
+#: includes/Admin/Troubleshooting.php:102
+msgid "Regeneration of images started. The process will continue in the background."
+msgstr "Bắt đầu tái tạo hình ảnh. Quá trình sẽ chạy ẩn."
+
+#: includes/Helpers.php:1202
+msgid "continue reading"
+msgstr "đọc tiếp"
+
+#: partials/admin/features.php:19
+msgid "<b>New Ultra-Fast Search Engine</b> – works very fast even with 100,000+ products "
+msgstr "<b>Công cụ tìm kiếm siêu tốc</b> - hoạt động nhanh với cả trên 100 000 sản phẩm "
+
+#: partials/admin/features.php:26
+msgid "Search by variation product SKU"
+msgstr "Tìm kiếm theo SKU sản phẩm biến thể"
+
+#: partials/admin/features.php:27
+msgid "Search in brands (WooCommerce Brands or YITH WooCommerce Brands)"
+msgstr "Tìm kiếm ở thương hiệu (WooCommerce Brands hoặc YITH WooCommerce Brands)"
+
+#: partials/admin/features.php:28
+msgid "Search for posts and pages"
+msgstr "Tìm kiếm bài viết và trang"
+
+#: partials/admin/features.php:30
+msgid "Individual customization of the search bar (simple CSS improvements)"
+msgstr "Tùy chỉnh thanh tìm kiếm (hỗ trợ CSS đơn giản)"
+
+#: partials/admin/how-to-use.php:19
+msgid "Using a shortcode - %s"
+msgstr "Sử dụng shortcode - %s"
+
+#: partials/admin/how-to-use.php:24
+msgid "Are there any difficulties? <b>We will do it for you!</b> We offer free of charge search bar implementation for Pro users. <a target=\"_blank\" href=\"%s\">Become one now!</a>"
+msgstr "Gặp khó khăn? <b>Chúng tôi sẽ giúp bạn!</b> Chúng tôi sẽ chèn thanh tìm kiếm miễn phí cho người dùng Pro. <a target=\"_blank\" href=\"%s\">Nâng cấp ngay!</a>"
+
+#: partials/admin/search-preview.php:257
+msgid "Add to cart"
+msgstr "Thêm vào giỏ hàng"
+
+#: includes/Settings.php:580 partials/admin/features.php:25
+msgid "Search in tags"
+msgstr "Tìm ở từ khóa"
+
+#: includes/Admin/Promo/Upgrade.php:50 includes/Settings.php:606
+#: includes/Settings.php:612 partials/admin/features.php:29
+msgid "Synonyms"
+msgstr "Từ đồng nghĩa"
+
+#. Description of the plugin
+msgid "The most popular WooCommerce product search. Gives your users a well-designed advanced AJAX search bar with live search suggestions."
+msgstr "Plugin tìm kiếm sản phẩm số một cho WooCommerce. Cung cấp cho người dùng thanh tìm kiếm AJAX tương tự Google."
+
+#: includes/EmbeddingViaMenu.php:166 includes/EmbeddingViaMenu.php:167
+msgid "Add to menu"
+msgstr "Thêm vào menu"
+
+#: includes/Settings.php:178
+msgid "How to add?"
+msgstr "Thêm như nào?"
+
+#: partials/admin/how-to-use.php:17
+msgid "Menu Screen"
+msgstr "Màn hình menu"
+
+#: includes/EmbeddingViaMenu.php:187 includes/EmbeddingViaMenu.php:248
+#: includes/Settings.php:102 includes/Settings.php:266
+#: partials/admin/search-preview.php:22 widget.php:38
+#: build/blocks/search-nav/index.js:1 build/blocks/search/index.js:1
+#: src/blocks/search-nav/edit.js:113 src/blocks/search/edit.js:98
+msgid "Search bar"
+msgstr "Thanh tìm kiếm"
+
+#: includes/Helpers.php:1190
+msgid "Post"
+msgstr "Bài viết"
+
+#: includes/Helpers.php:1191
+msgid "Page"
+msgstr "Trang"
+
+#: includes/Engines/WordPressNative/Search.php:960
+msgid "Categories"
+msgstr "Danh mục"
+
+#: includes/Engines/WordPressNative/Search.php:962
+msgid "Tags"
+msgstr "Từ khóa"
+
+#: includes/Helpers.php:1193 includes/Settings.php:394
+msgid "Products"
+msgstr "Sản phẩm"
+
+#: includes/Integrations/Brands.php:322
+msgid "Brands"
+msgstr "Thương hiệu"
+
+#: includes/Helpers.php:1194
+msgid "Posts"
+msgstr "Bài viết"
+
+#: includes/Helpers.php:1195
+msgid "Pages"
+msgstr "Trang"
+
+#: includes/Helpers.php:1197
+msgid "SKU"
+msgstr "SKU"
+
+#: includes/Helpers.php:1198
+msgid "Sale"
+msgstr "Doanh số"
+
+#: includes/Helpers.php:1200
+msgid "Featured"
+msgstr "Nổi bật"
+
+#: includes/Helpers.php:1204 includes/Helpers.php:1205
+#: includes/Settings.php:427
+msgid "See all products..."
+msgstr "Xem tất cả sản phẩm..."
+
+#: includes/Integrations/Brands.php:219
+msgid "Show brands"
+msgstr "Hiển thị thương hiệu"
+
+#: includes/Abstracts/ThemeIntegration.php:106
+msgid "Alternative ways to embed a search bar"
+msgstr "Cách khác để nhúng thanh tìm kiếm"
+
+#: includes/Settings.php:98
+msgid "Starting"
+msgstr "Bắt đầu"
+
+#: includes/Settings.php:106 partials/admin/search-preview.php:23
+msgid "Autocomplete"
+msgstr "Tự động điền"
+
+#: includes/Settings.php:110
+msgid "Search config"
+msgstr "Cấu hình tìm kiếm"
+
+#: includes/Settings.php:133
+msgid "Indexer"
+msgstr "Chỉ mục"
+
+#: includes/Settings.php:172
+msgid "How to add search bar in your theme?"
+msgstr "Cách thêm thanh tìm kiếm vào giao diện?"
+
+#: includes/Settings.php:197
+msgid "Min characters to show autocomplete"
+msgstr "Kí tự tối thiểu để hiện tự động điền"
+
+#: includes/Settings.php:372
+msgid "Limit"
+msgstr "Giới hạn"
+
+#: includes/Settings.php:380
+msgid "Group results"
+msgstr "Nhóm kết quả"
+
+#: includes/Settings.php:388
+msgctxt "admin"
+msgid "No results label"
+msgstr "Nhãn cho không tìm thấy"
+
+#: includes/Settings.php:425
+msgid "More results label"
+msgstr "Nhãn cho nhiều kết quả"
+
+#: includes/Settings.php:437
+msgid "Show categories"
+msgstr "Hiển thị danh mục"
+
+#: includes/Settings.php:455
+msgid "Show tags"
+msgstr "Hiển thị từ khóa"
+
+#: includes/Settings.php:463
+msgid "Show posts"
+msgstr "Hiển thị bài viết"
+
+#: includes/Settings.php:470
+msgid "Show pages"
+msgstr "Hiển thị trang"
+
+#: includes/Settings.php:498
+msgid "Suggestions colors"
+msgstr "Màu gợi ý"
+
+#: includes/Settings.php:573 partials/admin/features.php:24
+msgid "Search in categories"
+msgstr "Tìm ở danh mục"
+
+#: partials/admin/embedding-in-theme.php:18
+msgid "child theme of <b>%s</b>"
+msgstr "child theme của <b>%s</b>"
+
+#: partials/admin/search-preview.php:21
+msgid "Preview"
+msgstr "Xem trước"
+
+#: partials/admin/search-preview.php:125
+msgid "Sample brand <strong>name</strong>"
+msgstr "<strong>Tên</strong> thương hiệu mẫu"
+
+#: partials/admin/search-preview.php:141
+msgid "Sample category <strong>name</strong>"
+msgstr "<strong>Tên</strong> danh mục mẫu"
+
+#: partials/admin/search-preview.php:154
+msgid "Sample tag <strong>name</strong>"
+msgstr "<strong>Tên</strong> từ khóa mẫu"
+
+#: partials/admin/search-preview.php:167
+msgid "Sample post <strong>name</strong>"
+msgstr "<strong>Tên</strong> bài viết mẫu"
+
+#: partials/admin/search-preview.php:180
+msgid "Sample page <strong>name</strong>"
+msgstr "<strong>Tên</strong> trang mẫu"
+
+#: partials/admin/search-preview.php:196
+msgid "Sample product <strong>name</strong>"
+msgstr "<strong>Tên</strong> sản phẩm mẫu"
+
+#: partials/admin/search-preview.php:198 partials/admin/search-preview.php:243
+msgid "Lorem <strong>ipsum</strong> dolor sit amet, consectetur adipiscing elit. Quisque gravida lacus nec diam porttitor pharetra. Nulla facilisi. Proin pharetra imperdiet neque, non varius."
+msgstr "Lorem <strong>ipsum</strong> dolor sit amet, consectetur adipiscing elit. Quisque gravida lacus nec diam porttitor pharetra. Nulla facilisi. Proin pharetra imperdiet neque, non varius."
+
+#: partials/admin/search-preview.php:232
+msgid "Sample product name"
+msgstr "Tên sản phẩm mẫu"
+
+#: partials/admin/settings.php:32 partials/admin/settings.php:34
+msgid "Show advanced settings"
+msgstr "Hiển thị cài đặt nâng cao"
+
+#: includes/Admin/Promo/Upgrade.php:63 partials/admin/features.php:31
+msgid "See a comparison of all free and premium features!"
+msgstr "Xem bảng so sánh tính năng giữa bản miễn phí và trả phí!"
+
+#: includes/Admin/SettingsAPI.php:776
+msgid "Showcase"
+msgstr "Ví dụ"
+
+#: includes/Integrations/Brands.php:323
+msgid "Brand"
+msgstr "Thương hiệu"
+
+#: includes/Integrations/Brands.php:197
+msgid "Search in brands"
+msgstr "Tìm kiếm trong thương hiệu"
+
+#: includes/Settings.php:541
+msgid "Products search scope"
+msgstr "Phạm vi tìm kiếm sản phẩm"
+
+#: includes/Settings.php:587 partials/admin/features.php:22
+msgid "Search in custom fields"
+msgstr "Tìm ở trường tùy biến"
+
+#: includes/Admin/Promo/Upgrade.php:51
+msgid "Search in attributes and variation products SKUs (option)"
+msgstr "Tìm ở thuộc tính và SKU sản phẩm biến thể (tùy chọn)"
+
+#: includes/Admin/Promo/Upgrade.php:63
+msgid "and more..."
+msgstr "và nhiều hơn nữa..."
+
+#: includes/Admin/Promo/Upgrade.php:65
+msgid "Upgrade Now"
+msgstr "Nâng cấp ngay"
+
+#: includes/Admin/Troubleshooting.php:375
+msgid "Required PHP extension: %s"
+msgstr "Yêu cầu tiện ích PHP: %s"
+
+#: includes/Admin/SettingsAPI.php:774
+msgid "Contact"
+msgstr "Liên hệ"
+
+#: includes/Helpers.php:1201
+msgctxt "in categories fe. in Books > Crime stories"
+msgid "in"
+msgstr "trong"
+
+#: includes/Settings.php:138
+msgid "Increase sales"
+msgstr "Tăng doanh số"
+
+#: includes/Settings.php:547
+msgid "Search in description"
+msgstr "Tìm ở mô tả"
+
+#: includes/Settings.php:553
+msgid "Search in short description"
+msgstr "Tìm ở mô tả ngắn"
+
+#: includes/Settings.php:559
+msgid "Search in SKU"
+msgstr "Tìm ở SKU"
+
+#: includes/Settings.php:566 partials/admin/features.php:23
+msgid "Search in attributes"
+msgstr "Tìm ở thuộc tính"
+
+#: includes/Settings.php:655
+msgid "Pro features"
+msgstr "Tính năng Pro"
+
+#: includes/Settings.php:661
+msgid "Speed up search!"
+msgstr "Tăng tốc tìm kiếm!"
+
+#: includes/Settings.php:713
+msgid "-- Disabled"
+msgstr "-- Đã tắt"
+
+#: includes/Settings.php:715
+msgid "Normal"
+msgstr "Bình thường"
+
+#: includes/Settings.php:716
+msgid "Hard"
+msgstr "Khó"
+
+#: includes/Settings.php:723
+msgid "Index status"
+msgstr "Trạng thái chỉ mục"
+
+#: partials/admin/features.php:31
+msgid "And more..."
+msgstr "Và nhiều nữa..."
+
+#: partials/admin/features.php:33
+msgid "Upgrade Now!"
+msgstr "Nâng cấp ngay!"
+
+#: partials/admin/indexer-header-demo.php:11
+msgid "The search index does not exist yet. Build it now."
+msgstr "Chỉ mục tìm kiếm không tồn tại. Hãy tạo nó ngay."
+
+#: partials/admin/indexer-header-demo.php:16
+msgid "Show details"
+msgstr "Xem chi tiết"
+
+#: includes/Admin/Troubleshooting.php:53 includes/Admin/Troubleshooting.php:72
+msgid "Troubleshooting"
+msgstr "Xử lý sự cố"
+
+#: includes/Helpers.php:663 includes/Helpers.php:666
+msgid "Pro"
+msgstr "Pro"
+
+#: includes/Settings.php:202
+msgid "Max form width"
+msgstr "Chiều rộng tối đa"
+
+#: includes/Settings.php:205
+msgid "To set 100% width leave blank"
+msgstr "Không điền gì để thiết lập 100% chiều rộng"
+
+#: partials/admin/indexer-header-demo.php:15
+msgid "Build index"
+msgstr "Xây dựng chỉ mục"
+
+#: includes/Admin/Promo/FeedbackNotice.php:71
+msgid "Hey %s, it's Damian Góra from %s. You have used this free plugin for some time now, and I hope you like it!"
+msgstr "Chào %s, tôi là Damian Góra từ %s. Bạn đã sử dụng plugin miễn phí này một thời gian, và tôi hi vọng bạn sẽ thích nó!"
+
+#: includes/Admin/Promo/FeedbackNotice.php:82
+msgid "Review %s"
+msgstr "Đánh giá %s"
+
+#: includes/Admin/Promo/FeedbackNotice.php:86
+msgid "No thanks"
+msgstr "Không, cảm ơn"
+
+#: includes/Helpers.php:1203 includes/Settings.php:390
+msgid "No results"
+msgstr "Không có kết quả"
+
+#: includes/Settings.php:419
+msgid "Show SKU"
+msgstr "Hiển thị SKU"
+
+#: partials/admin/search-preview.php:38 partials/admin/search-preview.php:80
+#: partials/search-form.php:40
+msgid "Products search"
+msgstr "Tìm kiếm sản phẩm"
+
+#: includes/Admin/SettingsAPI.php:522
+msgid "Choose File"
+msgstr "Chọn tập tin"
+
+#: includes/Engines/WordPressNative/Search.php:961
+msgid "Category"
+msgstr "Danh mục"
+
+#: includes/Engines/WordPressNative/Search.php:963
+msgid "Tag"
+msgstr "Từ khóa"
+
+#: includes/Helpers.php:1206 includes/Settings.php:242
+msgid "Search for products..."
+msgstr "Tìm sản phẩm ..."
+
+#: includes/Settings.php:187 includes/Settings.php:366
+msgid "Basic"
+msgstr "Cơ bản"
+
+#: includes/Settings.php:193
+msgid "Minimum characters"
+msgstr "Ký tự tối thiểu"
+
+#: includes/Settings.php:211
+msgid "Show submit button"
+msgstr "Hiện nút gửi"
+
+#: includes/Settings.php:219
+msgid "To display the magnifier icon leave this field empty."
+msgstr "Để hiển thị biểu tượng kính lúp hãy để trống trường này."
+
+#: includes/Settings.php:222 partials/search-form.php:58
+#: partials/themes/ekommart.php:34 partials/themes/storefront.php:64
+#: partials/themes/storefront.php:66
+msgid "Search"
+msgstr "Tìm kiếm"
+
+#: includes/Settings.php:240
+msgid "Search input placeholder"
+msgstr "Nội dung thanh tìm kiếm"
+
+#: includes/Settings.php:323
+msgid "Search input background"
+msgstr "Nền thanh tìm kiếm"
+
+#: includes/Settings.php:330
+msgid "Search input text"
+msgstr "Chữ ở thanh tìm kiếm"
+
+#: includes/Settings.php:337
+msgid "Search input border"
+msgstr "Viền thanh tìm kiếm"
+
+#: includes/Settings.php:344
+msgid "Preloader"
+msgstr "Preloader"
+
+#: includes/Settings.php:350
+msgid "Show preloader"
+msgstr "Hiển thị Preloader"
+
+#: includes/Settings.php:357
+msgid "Upload preloader image"
+msgstr "Tải lên ảnh preloader"
+
+#: includes/Settings.php:400
+msgid "Show product image"
+msgstr "Hiển thị ảnh sản phẩm"
+
+#: includes/Settings.php:406
+msgid "Show price"
+msgstr "Hiển thị giá"
+
+#: includes/Settings.php:412
+msgid "Show product description"
+msgstr "Hiển thị mô tả về sản phẩm"
+
+#: includes/Settings.php:504
+msgid "Suggestion background"
+msgstr "Màu nền gợi ý"
+
+#: includes/Settings.php:511
+msgid "Suggestion selected"
+msgstr "Gợi ý được chọn"
+
+#: includes/Settings.php:233 includes/Settings.php:518
+msgid "Text color"
+msgstr "Màu chữ"
+
+#: includes/Settings.php:525
+msgid "Highlight color"
+msgstr "Màu nổi bật"
+
+#: includes/Settings.php:532
+msgid "Border color"
+msgstr "Màu đường viền"
+
+#: partials/admin/how-to-use.php:20
+msgid "Widgets Screen"
+msgstr "Màn hình Widget"
+
+#: widget.php:24
+msgid "AJAX (live) search form for WooCommerce"
+msgstr "Thanh tìm kiếm AJAX cho WooCommerce"
+
+#: widget.php:31
+msgid "Title"
+msgstr "Tiêu đề"

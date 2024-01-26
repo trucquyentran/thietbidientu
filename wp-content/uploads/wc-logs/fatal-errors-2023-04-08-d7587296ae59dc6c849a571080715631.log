@@ -1,0 +1,6 @@
+2023-04-08T02:57:49+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 978944 bytes) in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/class-requests.php on line 649
+
+2023-04-08T02:58:41+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 139264 bytes) in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-admin/options-general.php on line 237
+
+2023-04-08T06:15:08+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/vol16_2/epizy.com/epiz_33821311/htdocs/wp-includes/functions.php on line 651
+

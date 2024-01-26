@@ -1,0 +1,335 @@
+# Copyright (C) 2023 WPClever
+# This file is distributed under the same license as the WPC Product Quantity for WooCommerce plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPC Product Quantity for WooCommerce 3.1.6\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpc-product-quantity\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-03-31T19:26:05+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: wpc-product-quantity\n"
+
+#. Plugin Name of the plugin
+msgid "WPC Product Quantity for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://wpclever.net/"
+msgstr ""
+
+#. Description of the plugin
+msgid "WPC Product Quantity provides powerful controls for product quantity."
+msgstr ""
+
+#. Author of the plugin
+msgid "WPClever"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://wpclever.net"
+msgstr ""
+
+#: templates/quantity-input.php:58
+msgid "%s quantity"
+msgstr ""
+
+#: templates/quantity-input.php:58
+#: wpc-product-quantity.php:279
+#: wpc-product-quantity.php:837
+#: wpc-product-quantity.php:873
+msgid "Quantity"
+msgstr ""
+
+#: templates/quantity-input.php:88
+#: templates/quantity-input.php:122
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+#: wpc-product-quantity.php:167
+#: wpc-product-quantity.php:177
+#: wpc-product-quantity.php:1050
+msgid "WPC Product Quantity"
+msgstr ""
+
+#: wpc-product-quantity.php:167
+msgid "Product Quantity"
+msgstr ""
+
+#: wpc-product-quantity.php:180
+msgid "Thank you for using our plugin! If you are satisfied, please reward it a full five-star %s rating."
+msgstr ""
+
+#: wpc-product-quantity.php:182
+msgid "Reviews"
+msgstr ""
+
+#: wpc-product-quantity.php:183
+msgid "Changelog"
+msgstr ""
+
+#: wpc-product-quantity.php:184
+msgid "Discussion"
+msgstr ""
+
+#: wpc-product-quantity.php:189
+msgid "Settings updated."
+msgstr ""
+
+#: wpc-product-quantity.php:195
+#: wpc-product-quantity.php:369
+msgid "Settings"
+msgstr ""
+
+#: wpc-product-quantity.php:198
+#: wpc-product-quantity.php:370
+msgid "Premium Version"
+msgstr ""
+
+#: wpc-product-quantity.php:201
+msgid "Essential Kit"
+msgstr ""
+
+#: wpc-product-quantity.php:232
+msgid "General"
+msgstr ""
+
+#: wpc-product-quantity.php:237
+msgid "Decimal quantities"
+msgstr ""
+
+#: wpc-product-quantity.php:241
+msgid "No"
+msgstr ""
+
+#: wpc-product-quantity.php:242
+msgid "Yes"
+msgstr ""
+
+#: wpc-product-quantity.php:244
+msgid "Press \"Update Options\" after enabling this option, then you can enter decimal quantities in min, max, step quantity options."
+msgstr ""
+
+#: wpc-product-quantity.php:248
+msgid "Plus/minus button"
+msgstr ""
+
+#: wpc-product-quantity.php:251
+msgid "Show"
+msgstr ""
+
+#: wpc-product-quantity.php:252
+msgid "Hide"
+msgstr ""
+
+#: wpc-product-quantity.php:254
+msgid "Show the plus/minus button for the input type to increase/decrease the quantity."
+msgstr ""
+
+#: wpc-product-quantity.php:258
+msgid "Auto-correct"
+msgstr ""
+
+#: wpc-product-quantity.php:261
+msgid "While entering"
+msgstr ""
+
+#: wpc-product-quantity.php:262
+msgid "Out of focus"
+msgstr ""
+
+#: wpc-product-quantity.php:264
+msgid "When the auto-correct functionality will be triggered: while entering the number or out of focus on the input (click outside)."
+msgstr ""
+
+#: wpc-product-quantity.php:268
+msgid "Rounding values"
+msgstr ""
+
+#: wpc-product-quantity.php:271
+msgid "Down"
+msgstr ""
+
+#: wpc-product-quantity.php:272
+msgid "Up"
+msgstr ""
+
+#: wpc-product-quantity.php:274
+msgid "Round the quantity to the nearest bigger (up) or smaller (down) value when an invalid number is inputted."
+msgstr ""
+
+#: wpc-product-quantity.php:283
+#: wpc-product-quantity.php:898
+msgid "Type"
+msgstr ""
+
+#: wpc-product-quantity.php:286
+#: wpc-product-quantity.php:901
+msgid "Input (Default)"
+msgstr ""
+
+#: wpc-product-quantity.php:287
+#: wpc-product-quantity.php:902
+msgid "Select"
+msgstr ""
+
+#: wpc-product-quantity.php:288
+#: wpc-product-quantity.php:903
+msgid "Radio"
+msgstr ""
+
+#: wpc-product-quantity.php:293
+#: wpc-product-quantity.php:908
+msgid "Values"
+msgstr ""
+
+#: wpc-product-quantity.php:296
+#: wpc-product-quantity.php:911
+msgid "These values will be used for select/radio type. Enter each value in one line and can use the range e.g \"10-20\"."
+msgstr ""
+
+#: wpc-product-quantity.php:300
+#: wpc-product-quantity.php:915
+msgid "Minimum"
+msgstr ""
+
+#: wpc-product-quantity.php:303
+#: wpc-product-quantity.php:310
+#: wpc-product-quantity.php:317
+#: wpc-product-quantity.php:324
+#: wpc-product-quantity.php:918
+#: wpc-product-quantity.php:925
+#: wpc-product-quantity.php:932
+#: wpc-product-quantity.php:939
+msgid "Leave blank to disable."
+msgstr ""
+
+#: wpc-product-quantity.php:307
+#: wpc-product-quantity.php:922
+msgid "Step"
+msgstr ""
+
+#: wpc-product-quantity.php:314
+#: wpc-product-quantity.php:929
+msgid "Maximum"
+msgstr ""
+
+#: wpc-product-quantity.php:321
+#: wpc-product-quantity.php:936
+msgid "Default value"
+msgstr ""
+
+#: wpc-product-quantity.php:328
+msgid "Suggestion"
+msgstr ""
+
+#: wpc-product-quantity.php:386
+msgid "Community support"
+msgstr ""
+
+#: wpc-product-quantity.php:876
+msgid "Default"
+msgstr ""
+
+#: wpc-product-quantity.php:877
+msgid "settings"
+msgstr ""
+
+#: wpc-product-quantity.php:881
+msgid "Parent"
+msgstr ""
+
+#: wpc-product-quantity.php:885
+msgid "Disable"
+msgstr ""
+
+#: wpc-product-quantity.php:888
+msgid "Overwrite"
+msgstr ""
+
+#: wpc-product-quantity.php:964
+msgid "You can't add less than %s &times; \"%s\" to the cart."
+msgstr ""
+
+#: wpc-product-quantity.php:970
+msgid "You can't add more than %s &times; \"%s\" to the cart."
+msgstr ""
+
+#: wpc-product-quantity.php:979
+#: wpc-product-quantity.php:990
+msgid "You can't add %s &times; \"%s\" to the cart."
+msgstr ""
+
+#. translators: %s: product name
+#: wpc-product-quantity.php:1028
+msgctxt "Item name in quotes"
+msgid "&ldquo;%s&rdquo;"
+msgstr ""
+
+#. translators: %s: product name
+#: wpc-product-quantity.php:1034
+msgid "%s has been added to your cart."
+msgid_plural "%s have been added to your cart."
+msgstr[0] ""
+msgstr[1] ""
+
+#: wpc-product-quantity.php:1038
+msgid "Continue shopping"
+msgstr ""
+
+#: wpc-product-quantity.php:1040
+msgid "View cart"
+msgstr ""
+
+#: wpc-product-quantity.php:1064
+msgid "Before wrapper"
+msgstr ""
+
+#: wpc-product-quantity.php:1065
+msgid "After wrapper"
+msgstr ""
+
+#: wpc-product-quantity.php:1066
+msgid "Before quantity input"
+msgstr ""
+
+#: wpc-product-quantity.php:1067
+msgid "After quantity input"
+msgstr ""
+
+#: wpc-product-quantity.php:1068
+msgid "Before hidden field"
+msgstr ""
+
+#: wpc-product-quantity.php:1069
+msgid "After hidden field"
+msgstr ""
+
+#: wpc-product-quantity.php:1070
+msgid "Before select field"
+msgstr ""
+
+#: wpc-product-quantity.php:1071
+msgid "After select field"
+msgstr ""
+
+#: wpc-product-quantity.php:1072
+msgid "Before radio field"
+msgstr ""
+
+#: wpc-product-quantity.php:1073
+msgid "After radio field"
+msgstr ""
+
+#: wpc-product-quantity.php:1074
+msgid "Before input field"
+msgstr ""
+
+#: wpc-product-quantity.php:1075
+msgid "After input field"
+msgstr ""
